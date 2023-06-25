@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+}
