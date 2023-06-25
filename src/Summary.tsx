@@ -3,7 +3,7 @@ import data from "./resources/data.json"
 const Summary = () => {
     return (
         <div className="w-full py-[2rem] md:py-[4rem] px-[2rem] flex flex-col gap-[2rem]">
-            <div className="text-[1.2rem] font-bold">
+            <div className="text-2xl font-bold">
                 Summary
             </div>
             <div className={`flex flex-col gap-[1rem]`}>

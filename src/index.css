@@ -10,3 +10,6 @@ html {
 * {
   font-family: "Hanken Grotesk", sans-serif;
 }
+.flexCenter {
+  @apply flex justify-center items-center;
+}

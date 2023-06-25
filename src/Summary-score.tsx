@@ -2,7 +2,7 @@ const Summaryscore = ({ bg, icon, color, category, score, bgHsl }: { bg: string,
     //bg classes are not working properly so I added inline fallback bg
     return (
         <section className={`flex justify-between p-5 rounded-lg bg-${bg} `} style={{ background: bgHsl }}>
-            <div className="flex items-center justify-center gap-4">
+            <div className="flexCenter gap-4">
                 <img src={`${icon}`} alt="svg" />
                 <p className={`text-${color}`}>{category}</p>
             </div>
