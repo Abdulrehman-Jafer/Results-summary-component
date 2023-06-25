@@ -6,8 +6,8 @@ const Summary = () => {
             <div className="text-[1.2rem] font-bold">
                 Summary
             </div>
-            <div className="flex flex-col gap-[1rem]">
-                {data.map(({ bg, category, color, icon, score }, i) => <Summaryscore key={i} bg={bg} category={category} color={color} icon={icon} score={score} />)}
+            <div className={`flex flex-col gap-[1rem]`}>
+                {data.map(({ bg, category, color, icon, score, bgHsl }, i) => <Summaryscore key={i} bgHsl={bgHsl} bg={bg} category={category} color={color} icon={icon} score={score} />)}
             </div>
             <button className="bg-Dark-gray-blue text-[18px] text-white rounded-[5rem] p-[1rem] hover:bg-black">Continue</button>
         </div>
